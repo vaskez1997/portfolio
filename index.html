@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vaskrsije Panić - CV</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+
+  
+</head>
+
+<body>
+<style type="text/css">
+  /* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #E6E4E7;
+  font-family: 'Arimo', sans-serif;
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.link--white {
+  color: #1FC1AD;
+}
+
+.main {
+  border-radius: 3px;
+  background: white;
+  margin: 48px auto;
+  /* height:800px; */
+  width: 96%;
+  box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  transition: all 250ms ease-in-out;
+  transform: translate(0, 0) scale(0.5);
+  opacity: 0;
+}
+#footer {
+    border-radius: 3px;
+  background: white;
+  margin: 48px auto;
+  /* height:800px; */
+  width: 96%;
+  box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  transition: all 250ms ease-in-out;
+  transform: translate(0, 0) scale(0.5);
+  opacity: 0;
+}
+@media screen and (min-width: 600px) {
+  .main {
+    width: 88%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 70%;
+  }
+}
+
+.main.in-focus {
+  box-shadow: -48px 48px 48px 0px rgba(0, 0, 0, 0.1);
+  transition: all 250ms ease-in-out;
+  transform: translate(0, 0) scale(1);
+  opacity: 1;
+}
+
+.resume__header {
+  overflow: hidden;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #201E21;
+  background: linear-gradient(90deg, #232526 10%, #414345 90%);
+}
+.avatar {
+  width: 200px;
+  max-width: 200px; 
+}
+@media screen and (max-width: 600px) {
+  .resume__header {
+   /* padding: 72px 12px;*/
+  }
+}
+.resume__header h2, .resume__header h3, .resume__header h4, .resume__header a {
+  color: white;
+  /*font-family: 'BenchNine', sans-serif;*/
+}
+.resume__header h2 {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: 210px;
+}
+.resume__header h2 span {
+  font-weight: 100;
+}
+.resume__header h3 {
+  position: absolute;
+  top: 100px;
+  left: 210px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.resume__header h4 {
+  position: absolute;
+  bottom: 14px;
+  left: 210px;
+  margin: 0;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .resume__header h4 {
+    font-size: 16px;
+    bottom: 16px;
+    left: 160px;
+  }
+  .resume__header h3 {
+    font-size: 14px;
+    top: 35px;
+    left: 160px;
+  }
+  .resume__header h2 {
+    top: 10px;
+    left: 160px;
+    font-size: 24px;
+  }
+  .avatar {
+    width: 150px;
+    max-width: 150px;
+    padding: 0;
+  }
+}
+.resume__header a {
+  font-size: 24px;
+}
+.resume__body {
+  padding: 12px;
+}
+.resume__section {
+  border: 1px solid #999;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+.one_section {
+  overflow: hidden;
+}
+.first__section {
+  border: 1px solid #999;
+  margin-bottom: 24px;
+  padding: 24px;
+  float: left;
+  width: 59%;
+}
+.third__section {
+  border: 1px solid #999;
+  margin-bottom: 24px;
+  padding: 24px;
+  float: right;
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .first__section {
+    width: 100%;
+  }
+  .third__section {
+    width: 100%;
+  }
+}
+.list {
+  list-style-type: none;
+}
+.list--inline-block {
+  margin: 0;
+}
+.list--inline-block__item {
+  display: inline-block;
+  color: red !important;
+  margin-left: 12px;
+}
+
+.absolute-b-r {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+.relative {
+  position: relative;
+}
+
+.btn--page {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.skills {
+  /*text-align:center;*/
+}
+.skills__heading {
+  /*text-align:left;*/
+}
+.skills__item {
+  display: inline-block;
+  padding: 12px;
+  /* height:44px; */
+  width: 46%;
+  vertical-align: top;
+  background: #444444;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  margin-right: 3%;
+  border-radius: 2px;
+  cursor: pointer;
+  border-left: 4px solid #444444;
+  transition: all 250ms ease-in-out;
+}
+.skills__item:hover {
+  border-left: 4px solid #1FC1AD;
+  transition: all 250ms ease-in-out;
+}
+@media screen and (min-width: 470px) {
+  .skills__item {
+    width: 29%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .skills__item {
+    width: 29%;
+  }
+}
+.skills__info {
+  position: fixed;
+  background: #FFF;
+  /*border:12px solid #1FC1AD;*/
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 32px 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  transform: scale(0);
+  transition: all 250ms ease-in-out;
+}
+@media screen and (min-width: 600px) {
+  .skills__info {
+    padding: 48px 96px;
+    font-size: 20px;
+    line-height: 1.75;
+  }
+}
+
+.skills__info.is--visible {
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+  z-index: 100;
+}
+
+.skills__dd {
+  display: inline;
+  width: 0;
+  margin: 0;
+}
+
+.skills__dd.is--visible {
+  width: auto;
+}
+
+.education, .experience {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 24px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.education ul, .experience ul {
+  line-height: 2;
+  list-style-type: initial;
+  padding-left: 18px;
+}
+@media screen and (max-width: 600px) {
+  .education ul, .experience ul {
+    line-height: 1.4;
+  }
+}
+
+.experience__more {
+  background: #ffffff;
+  padding: 12px;
+  position: relative;
+  line-height: 1.5;
+  border-left: 4px solid #FFF;
+  max-height: 44px;
+  min-height: 44px;
+  overflow: hidden;
+  transition: all 200ms ease-in-out;
+  margin-top: 12px;
+}
+.experience__more h4, .experience__more p {
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+}
+.experience__more h4 {
+  display: inline-block;
+  max-width: 70%;
+}
+
+.experience__more.is--expanded {
+  background: #f1f1f1;
+  border-left: 4px solid #1FC1AD;
+  max-height: 8888px;
+  transition: all 200ms ease-in-out;
+}
+.experience__more.is--expanded h4, .experience__more.is--expanded p {
+  transform: scale(1);
+  transition: all 200ms ease-in-out;
+}
+
+.heading--section {
+  background: #f1f1f1;
+  border-left: 6px solid #1FC1AD;
+  padding: 6px;
+}
+.heading--section--f {
+  background: #f1f1f1;
+  border-right: 6px solid #1FC1AD;
+  padding: 6px;
+}
+.right_text {
+ text-align: right;
+}
+.left_text {
+  text-align: left;
+}
+
+.btn--more.is--visible {
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+}
+
+.btn--more {
+  transform: scale(0);
+  width: 72px;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  outline: none;
+  border: 1px solid #1FC1AD;
+  background: #1FC1AD;
+  color: white;
+  border-radius: 1px;
+  padding: 6px 12px;
+  font-size: 12px;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 12px;
+}
+.btn--more:hover {
+  background: #FFF;
+  color: #1FC1AD;
+  transition: all 200ms ease-in-out;
+}
+.btn--close {
+  position: fixed;
+  top: 24px;
+  background: none;
+  border: none;
+  right: 24px;
+  font-size: 32px;
+}
+@media screen and (max-width: 600px) {
+  .btn--close {
+    top: 30px;
+  }
+}
+.location::before {
+  color: #1FC1AD;
+}
+
+.cn {
+  width: 88px;
+  position: absolute;
+  bottom: -100%;
+  left: 300px;
+  transition: all 250ms ease-in-out;
+}
+
+.cn.is--visible {
+  bottom: 0%;
+  transition: all 250ms ease-in-out;
+}
+
+.color-change {
+  background: #444;
+  transition: all 250ms ease-in-out;
+}
+
+body {
+  transition: all 250ms ease-in-out;
+}
+
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,200,100,300' rel='stylesheet' type='text/css'>
+
+<main class="main">
+  <article>
+    <div class="resume__header relative">
+      <img align="center" class="avatar" src="https://i.imgur.com/2XdONYW.png">
+      <h2><span>PANIĆ </span>VASKRSIJE </h2>
+      <h3>front-end designer / developer</h3>
+      <h4 class="ion-location location"> Teslić</h4>
+      <img class="cn" src="https://shareicon.net/download/2016/09/26/835142_city.svg" alt="Kiwi standing on oval">
+      <div style="    background: #121212;
+    box-shadow: 1px 0 #2a2a2a;
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: middle;
+                  width: 1px;"></div>
+      <ul class="list--inline-block absolute-b-r"> 
+        <li class="list--inline-block__item"><a href="http://www.vaskezdes.com" class="ion-ios-at-outline"></a></li>
+        <li class="list--inline-block__item"><a href="https://codepen.io/vaskez/" class="ion-social-codepen-outline"></a></li>
+        <li class="list--inline-block__item"><a href="https://facebook.com/vaskrsija.panic.5" class="ion-social-facebook-outline"></a></li>
+        <li class="list--inline-block__item"><a href="https://www.linkedin.com/in/vaskezdes" class="ion-social-linkedin-outline"></a></li>
+        <li class="list--inline-block__item"><a href="https://www.instagram.com/vaske.p/" class="ion-social-instagram-outline"></a></li>
+      </ul>
+    </div>
+    <div class="resume__body">
+
+      <div class="resume__section">
+        <h4 class="heading--section">About me</h4>
+        <div class="experience">
+          <p>My name is Vaskrsije Panić. I have 20 years. I live in Teslic and graduated from the IT Academy as a PHP junior. I've been in the programming language since I was 14, and I was interested in everything, I just had something that attracted me. I'm currently looking for a job, but I'm also a freelancer. The challenge for me is to get jobs and solve them as the manager wants. This is briefly about me ...</p>
+        </div>
+            
+      </div>
+
+      <div class="resume__section">
+        <h4 class="heading--section">SKILLS:</h4>
+        <dl class="skills">
+          <dt class="skills__item">HTML</dt>
+          <dd class="skills__dd">
+            <div class="skills__info">
+              <h2>HTML</h2>
+              <p>I believe that any web project begins with good content oranized and structured with HTML. This helps to put the emphasis on content. Without it, you risk losing the focus of why users are actually accessing your product.</p>
+              <p>Before any design is applied, I always write solid HTML.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          </dd>
+          <dt class="skills__item">CSS</dt>
+          <div class="skills__info">
+              <h2>CSS3</h2>
+            <p>I use CSS every day. It's a great tool because of how well it works with HTML elements. CSS allows me to express my creativity in a way that is clean and intuitive for users on both mobile devices and more traditional desktop computers.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          <dt class="skills__item">PHP</dt>
+          <div class="skills__info">
+              <h2>PHP</h2>
+            <p>As you can see in my works, each work contains a PHP programming language. I have been working on PHP for many years, I started with SMF forums, editing and various creation of the system. This language is my priority as I want to do more in it.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          <dt class="skills__item">MySQL</dt>
+          <dt class="skills__item">SASS</dt>
+          <div class="skills__info">
+              <h2>SASS</h2>
+              <p>Pre-processors in general have been great for CSS and while most have a similar feature set, I have found myself going back to SASS again and again, taking advantage of it's powerful mixins, extends, directives and it's ability to let you write in a nested format without it being compiled into nested CSS. Not having to worry about overly complex specifity, working in nested SASS helps me to visualize and write better modularized code.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          <dt class="skills__item">JS / jQuery</dt>
+          <div class="skills__info">
+              <h2>JS / jQuery</h2>
+              <p>To me, jQuery is a great UI and UX prototyping tool. Pair it with CSS animations, transitions or transforms and you can bring your designs to life. All my projects leverage this tool is some capacity.</p>
+              <p>I also use Javascript to tag html elements with event tags to then track conversion in Google Analytics.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          <dt class="skills__item">Wordpress</dt>
+          <div class="skills__info">
+              <h2>Wordpress</h2>
+              <p>I have built a couple of custom wordpress themes by leveraging the power custom post types and custom post fields. While some developers have moved away from it, I find that it's still a viable and smart choice for many web projects that need a full-fledged CMS with a tried and tested admin dashboard.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+          <dt class="skills__item">Photoshop</dt>
+          <div class="skills__info">
+              <h2>Photoshop</h2>
+              <p>While I'm greatful for this ability of Photoshop, today in my workflow I leverage it for what it was built to be: a photo editor. I love the power and precision of Photoshop and I use it for all my photos.</p>
+            <p>Also, because I have experience in the past with Flash, using Photoshop's timeline and keyframe animation interface, I'm able to make interesting animated Gifs.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+        </dl>
+        
+      </div>
+      <div class="resume__section">
+        
+        <h4 class="heading--section">Experience</h4>
+        <div class="experience">
+          <h5>Freelancer</h5>
+          <h6>Designer / Developer<h6>
+          <h6>2018 - Present</h6>
+          <ul>
+            <li>Fix bugs and more systems...</li>
+            <li>Making shopping site with more systems.</li>
+            <li>Making HTML/CSS & JS templates.</li>
+            <li>Making logotips in photoshop.</li>
+            <li>Making movies in Cinema 4d and Vegas PRO.</li>
+          </ul>
+          
+            <div class="experience__more">
+              <button type="button" class="btn--more js--btn-more is--visible">MORE</button>
+              <button type="button" class="btn--more js--btn-less">LESS</button>
+              <h4>Technologies used:</h4>
+              <ul>
+                <li>PHP</li>
+                <li>HTML & CSS</li>
+                <li>JS</li>
+                <li>MySQL</li>
+                <li>jQuery</li>
+                <li>Photoshop</li>
+                <li>Cinema 4d</li>
+                <li>Bootstrap</li>
+                <li>Wordpress</li>
+              </ul>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+        </div>
+            
+      </div>
+      <div class="resume__section">
+        <h4 class="heading--section">Education</h4>
+        <div class="education">
+          <h5>ITAcademy</h5>
+          <h6>Certificate in Web Development and Maintenance<h6>
+          <h6>2018</h6>
+          <h6>Areas of Study:</h6>
+          <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Javascript</li>
+            <li>HTML and CSS</li>
+            <li>Wordpress</li>
+          </ul>
+          <div class="experience__more">
+              <button type="button" class="btn--more js--btn-more is--visible">MORE</button>
+              <button type="button" class="btn--more js--btn-less">LESS</button>
+              <h4>More about ITAcademy</h4>
+              <p>At the academy I participated in the preparation of teaching materials. I also dealt with the development of a chat that was used in teaching and communication between students.</p>
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+        </div>
+      </div>
+
+      <div class="one_section">
+      <div class="first__section">
+        <h4 class="heading--section">My works</h4>
+        <div class="education">
+          <h5>SPORTHOUSE SHOPPING</h5>
+          <h6>2018</h6>
+          <h6>Technologies Used:</h6>
+          <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Javascript</li>
+            <li>HTML and CSS</li>
+            <li>jQuery</li>
+          </ul>
+          <div class="experience__more">
+              <button type="button" class="btn--more js--btn-more is--visible">PHOTOS</button>
+              <button type="button" class="btn--more js--btn-less">LESS</button>
+              <h4>More about SPORTHOUSE shopping</h4>
+              <img width="96%" src="https://i.imgur.com/qpueRj2.jpg">
+              <button type="button" class="ion-ios-close btn--close"></button>
+            </div>
+        </div>
+      </div>
+
+      <div class="third__section">
+        <h4 class="heading--section">Languages</h4>
+        <div class="education">
+          <h5>Serbian (native)</h5>
+          <h5>Croatian (profesional)</h5>
+          <h5>Bosnian (professional)</h5>
+          <h5>English (Intermediate)</h5>
+        </div>
+      </div>
+
+      <div class="third__section">
+        <h4 class="heading--section">Interest</h4>
+        <div class="education">
+          <h5>Football</h5>
+          <h5>Running</h5>
+          <h5>Swimming</h5>
+          <h5>Gaming</h5>
+          <h5>Shopping</h5>
+          <h5>Watching tutorials</h5>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </article>
+</main>
+<footer class="main">
+  <article>
+    <div class="resume__body">
+      <div class="resume__section">
+        <h4 class="heading--section--f right_text">Created by Vaskrsije Panić</h4>
+        <h4 class="heading--section--f right_text">CV from 18.9.2018</h4>
+    </div>
+    </div>
+  </article>
+</footer>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+<script>
+      $( document ).ready(function() {
+   /* $(".btn--page").click(function(){*/
+      $(".main").toggleClass("in-focus");
+   /* });*/
+  $(".location").hover(function(){
+      $(".cn").toggleClass("is--visible");
+  });
+  $(".skills__item").click(function(){
+    $(this).next().toggleClass("is--visible");
+    $(this).next().children().toggleClass("is--visible");
+    $('body').toggleClass("color-change");
+  });
+  $(".btn--close").click(function(){
+    $(this).parent().toggleClass("is--visible");
+    $(this).parent().parent().toggleClass("is--visible");
+    $('body').toggleClass("color-change");
+  });
+  
+  $(".js--btn-more").click(function(){
+    $(this).parent().toggleClass("is--expanded");
+    $(this).toggleClass("is--visible");
+    $(this).next().toggleClass("is--visible");
+    
+  });
+  $(".js--btn-less").click(function(){
+    $(this).parent().toggleClass("is--expanded");
+    $(this).toggleClass("is--visible");
+    $(this).prev().toggleClass("is--visible");
+  });
+});
+</script>
+
+</body>
+
+</html>
